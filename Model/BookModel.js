@@ -16,6 +16,6 @@ const bookSchema = new mongoose.Schema({
     }
 });
 
-const Book = mongoose.model('300351938-Ishwinder', bookSchema);
+const Book = mongoose.model('Aman Verma', bookSchema);
 
 module.exports = { Book, bookSchema };

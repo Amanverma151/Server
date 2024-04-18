@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 //  const uri = "mongodb://localhost:27017/BookList";
 
 
-const uri = "mongodb://0.0.0.0:27017/bookrecords";
+const uri = "mongodb+srv://final:final@cluster0.x6xvftd.mongodb.net/bookrecords";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 const connection = mongoose.connection;
 
